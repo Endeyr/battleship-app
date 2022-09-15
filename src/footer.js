@@ -9,7 +9,7 @@ let footer = () => {
 	footerText.appendChild(github)
 	github.appendChild(link)
 	github.title = 'Github'
-	github.href = 'https://github.com/Endeyr/weather-app'
+	github.href = 'https://github.com/Endeyr/battleship-app'
 	let body = document.querySelector('body')
 	body.appendChild(footer)
 }
