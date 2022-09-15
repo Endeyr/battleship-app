@@ -3,9 +3,11 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "webpack.config.js",
+	"watch": {},
 	"scripts": {
 		"build": "webpack --config webpack.config.js",
-		"test": "jest"
+		"test": "jest",
+		"watch": "npm-watch"
 	},
 	"author": "",
 	"license": "ISC",
@@ -14,5 +16,8 @@
 		"style-loader": "^3.3.1",
 		"webpack": "^5.74.0",
 		"webpack-cli": "^4.10.0"
+	},
+	"dependencies": {
+		"npm-watch": "^0.11.0"
 	}
 }

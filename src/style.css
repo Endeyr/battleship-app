@@ -9,10 +9,79 @@
 	--secondary: #415137;
 }
 
-* {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: var(--dark);
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 66vh;
+}
+
+.title {
+	font-size: 10em;
+	color: var(--light);
+	margin-bottom: 0.25em;
+}
+
+.btn {
+	background-color: var(--primary);
+	padding: 0.5em 1em;
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2em;
+	color: var(--light);
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: var(--secondary);
+}
+
+.splash-btn {
+	font-size: 2em;
+}
+
+.battleship-grid {
+	margin: 2vmin;
+	display: grid;
+	background-color: var(--primary);
+	grid-template-rows: repeat(7, 6.57vmin);
+	grid-template-columns: repeat(7, 6.57vmin);
+}
+
+.battleship-grid div {
+	border: 1px solid var(--grey);
+}
+
+.taken .ship {
+	background-color: var(--secondary);
+}
+
+.grid {
+	display: flex;
+}
+
+.ship {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1vmin;
+	width: 6.57vmin;
+	height: 6.57vmin;
+	border-radius: 2.3vmin;
 }
 
 footer {

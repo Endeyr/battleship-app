@@ -4,4 +4,4 @@ import './reset.css'
 import './style.css'
 
 home()
-gameboard()
+// gameboard()
