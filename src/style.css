@@ -1,0 +1,37 @@
+:root {
+	--dark: #374151;
+	--darker: #1f2937;
+	--darkest: #111827;
+	--grey: #7c7c7c2b;
+	--light: #eee;
+	--danger: #ff5b57;
+	--primary: #513741;
+	--secondary: #415137;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+footer {
+	height: 7vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	max-width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 1em;
+	box-sizing: border-box;
+	background: var(--darker);
+}
+
+footer a {
+	color: blue;
+}
