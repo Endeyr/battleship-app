@@ -1,0 +1,11 @@
+{
+	"name": "battleship-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "webpack.config.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC"
+}
